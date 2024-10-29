@@ -1,3 +1,38 @@
+## [2.2.4](https://github.com/eficode/wait-for/compare/v2.2.3...v2.2.4) (2023-01-09)
+
+
+### Bug Fixes
+
+* Fixes an issue where in Alpine based environments `wget` would run into an endless retry loop ([#100](https://github.com/eficode/wait-for/issues/100)) ([b15c461](https://github.com/eficode/wait-for/commit/b15c46119a7a2851c29a7e687d71eafb9fb8750a)) Thanks to @gesellix
+
+## [2.2.3](https://github.com/eficode/wait-for/compare/v2.2.2...v2.2.3) (2022-03-05)
+
+
+### Bug Fixes
+
+* **http:** corrects protocol check for wget availability ([#82](https://github.com/eficode/wait-for/issues/82)) ([570c9fb](https://github.com/eficode/wait-for/commit/570c9fbbfd4bd3f86deee2d1159d35c2b80806a4))
+
+## [2.2.2](https://github.com/eficode/wait-for/compare/v2.2.1...v2.2.2) (2022-01-21)
+
+
+### Bug Fixes
+
+* **timeout:** resolve degredation which prevented setting indefinite timeout ([b45e76c](https://github.com/eficode/wait-for/commit/b45e76cba24166e52c7e1d71fb4c0f557c05de7d))
+
+## [2.2.1](https://github.com/eficode/wait-for/compare/v2.2.0...v2.2.1) (2021-12-03)
+
+
+### Bug Fixes
+
+* wget timeout does not double ([206b38d](https://github.com/eficode/wait-for/commit/206b38d01ddf0fe76ea35efadc4ebdfb6c877895))
+
+# [2.2.0](https://github.com/eficode/wait-for/compare/v2.1.3...v2.2.0) (2021-11-29)
+
+
+### Features
+
+* adds -v and --version flag to show the version (Thanks [@philipp-kunz-mimacom](https://github.com/philipp-kunz-mimacom)) ([8636f50](https://github.com/eficode/wait-for/commit/8636f50d4a83e3e1c44fafae7c3d63f2f3d8db49)), closes [#71](https://github.com/eficode/wait-for/issues/71)
+
 ## [2.1.3](https://github.com/eficode/wait-for/compare/v2.1.2...v2.1.3) (2021-07-12)
 
 
